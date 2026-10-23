@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "autolumber",
+	"version": "${version}",
+	"name": "AutoLumber",
+	"description": "Client-side tree chopping assistant: walks to trees, clears leaves, chops logs with your axe, eats, replants, swaps axes before they break and collects the drops.",
+	"authors": ["Cody Adams"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.autolumber.AutoLumber"]
+	},
+	"mixins": [
+		{
+			"config": "autolumber.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

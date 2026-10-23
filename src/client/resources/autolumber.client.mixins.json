@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.autolumber.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"HudMixin",
+		"MouseHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
